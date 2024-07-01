@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css2?family=roboto&display=swap);
+
+body {
+padding: 5% 10%;
+font-size: 2rem;
+font-family: "roboto", sans-serif;
+
+}
+
+ol {
+  list-style-type: lower-alpha;
+  padding: 0;
+}
+
+ul {
+  list-style-type: square;
+  text-align: center;
+  list-style-position: inside;
+  color: blue;
+  /*list-style-image: url(/HTML5\ Lesson\ 1\ -\ 9/HTML5.png);*/
+}
+
+ul li:nth-child(even) {
+  color: brown ;
+}
+
+ul ::marker {
+color:red;
+font-family: fantasy;
+font-size: 1em;
+content: "only $5 >> ";
+
+}
